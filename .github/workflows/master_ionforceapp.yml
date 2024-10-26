@@ -23,6 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          ls -alh
           npm install
 
       - name: Zip artifact for deployment
