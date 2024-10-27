@@ -64,6 +64,8 @@ jobs:
       - name: "Deploy to Azure Web App"
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
+        env:
+          PORT: 4000
         with:
           app-name: "ionforceapp"
           slot-name: "Production"
