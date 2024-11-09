@@ -24,7 +24,7 @@ npm run start
 
 #### Returns the amount cheaper
 
-- **URL**: `/v1/todos`
+- **URL**: `exchange-routing?amount={btc_amount}`
 - **Method**: `GET`
 - **Description**: Returns the amount cheaper
 - **Response**:
